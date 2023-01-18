@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 package CoffeeMachine;
 =======
 =======
@@ -8,10 +9,14 @@ package CM;
 >>>>>>> bc2a763 (st-2 coffemachine)
 import CoffeeMachine.CoffeeMachine;
 >>>>>>> 4a375fa (st-1 coffemachine)
+=======
+package CoffeeMachine;
+>>>>>>> 7f5feb6 (st-4 coffemachine)
 
 public class CM {
     public static void main(String[] args) {
         CoffeeMachine coffeeMachine = new CoffeeMachine();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         Custom userInputClass = new Custom();
@@ -26,5 +31,9 @@ public class CM {
 =======
         coffeeMachine.amountOfCups();
 >>>>>>> ed969a4 (st-3 coffemachine)
+=======
+        coffeeMachine.printInfo();
+        coffeeMachine.menu();
+>>>>>>> 7f5feb6 (st-4 coffemachine)
     }
 }
