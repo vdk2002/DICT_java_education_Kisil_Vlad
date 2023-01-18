@@ -1,5 +1,6 @@
 package CoffeeMachine;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class CoffeeMachine {
@@ -184,5 +185,16 @@ public class CoffeeMachine {
 
     public void setCup(int cup) {
         this.cup = cup;
+=======
+public class CoffeeMachine {
+    public void printText() {
+        System.out.println("Starting to make a coffee\n" +
+                "Grinding coffee beans\n" +
+                "Boiling water\n" +
+                "Mixing boiled water with crushed coffee beans\n" +
+                "Pouring coffee into the cup\n" +
+                "Pouring some milk into the cup\n" +
+                "Coffee is ready!\n");
+>>>>>>> 4a375fa (st-1 coffemachine)
     }
 }
