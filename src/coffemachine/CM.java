@@ -1,11 +1,9 @@
-package CM;
-
-import CoffeeMachine.CoffeeMachine;
+package CoffeeMachine;
 
 public class CM {
     public static void main(String[] args) {
         CoffeeMachine coffeeMachine = new CoffeeMachine();
-        coffeeMachine.amountOfCoffee();
-        coffeeMachine.amountOfCups();
+        coffeeMachine.printInfo();
+        coffeeMachine.menu();
     }
 }
