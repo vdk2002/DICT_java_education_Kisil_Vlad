@@ -20,6 +20,7 @@ public class CM {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Custom userInputClass = new Custom();
         coffeeMachine.menu(userInputClass);
 =======
@@ -38,5 +39,9 @@ public class CM {
 >>>>>>> e2660ca (st-5 coffemachine)
         coffeeMachine.menu();
 >>>>>>> 7f5feb6 (st-4 coffemachine)
+=======
+        Custom userInputClass = new Custom();
+        coffeeMachine.menu(userInputClass);
+>>>>>>> 040e1cd (st-6 coffemachine)
     }
 }
