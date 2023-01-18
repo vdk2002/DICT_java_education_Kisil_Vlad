@@ -21,6 +21,10 @@ public class CM {
 >>>>>>> 4a375fa (st-1 coffemachine)
 =======
         coffeeMachine.amountOfCoffee();
+<<<<<<< HEAD
 >>>>>>> bc2a763 (st-2 coffemachine)
+=======
+        coffeeMachine.amountOfCups();
+>>>>>>> ed969a4 (st-3 coffemachine)
     }
 }
