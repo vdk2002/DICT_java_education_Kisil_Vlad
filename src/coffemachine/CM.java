@@ -19,6 +19,7 @@ public class CM {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Custom userInputClass = new Custom();
         coffeeMachine.menu(userInputClass);
 =======
@@ -33,6 +34,8 @@ public class CM {
 >>>>>>> ed969a4 (st-3 coffemachine)
 =======
         coffeeMachine.printInfo();
+=======
+>>>>>>> e2660ca (st-5 coffemachine)
         coffeeMachine.menu();
 >>>>>>> 7f5feb6 (st-4 coffemachine)
     }
