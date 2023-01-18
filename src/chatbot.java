@@ -2,7 +2,7 @@ package ChatBot;
 import java.util.Scanner;
 
 public class chatbot {
-    public void botName() {
+    public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Hello! My name is Vitaliy");
             System.out.println("I was created in 2222");
@@ -20,6 +20,21 @@ public class chatbot {
             int numb = scanner.nextInt();
             for (int i = 0; i <= numb; i++) {
                 System.out.println(i + "!");
+            }
+            System.out.println("Let`s test you knowledge. \nWhat is debugging?" +
+                    "\n1. It is the process of finding and fixing bugs in a program. " +
+                    "\n2. It is a method of postponing processes. " +
+                    "\n3. It is a finite set of steps that, when followed, solve some problem. " +
+                    "\n4. This is debugging.");
+            while (true) {
+                int answer = scanner.nextInt();
+                if (answer == 1){
+                    System.out.println("Great, you right!");
+                    break;
+                }
+                System.out.println("Please, try again.");
+            }
+            System.out.println("Goodbye, have a nice day!");
         }
     }
 }
